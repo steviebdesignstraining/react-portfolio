@@ -28,7 +28,7 @@ export default function Home() {
   return (
       <div className={darkMode ? "dark" : ""}>
         <Head>
-          <title>Stephen Bennett's Portfolio</title>
+          <title>Stephen Bennett&apos;s Portfolio</title>
           <link rel="icon" href="/icon.ico" />
         </Head>
         <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
@@ -91,7 +91,7 @@ export default function Home() {
               <Image src={employ} alt="Employment History" width={100} height={100} style={{margin: "auto",}} />
               <h3 className="text-lg font-medium pt-8 pb-2 text-center ">Employment History</h3>
               <p className="pt-8 pb-2">Kubrick Group- (August 2022 - Current date) Automation Test Engineer</p>
-              <p className="pt-8 pb-2">Curio - (April 2021 - August 2022) Manual/Automation QA Tester - Mobile and Web testing on curio's native app, automating curio website</p>
+              <p className="pt-8 pb-2">Curio - (April 2021 - August 2022) Manual/Automation QA Tester - Mobile and Web testing on curio&apos;s native app, automating curio website</p>
               <p className="pt-8 pb-2">Efficio Consulting - (Nov 2020 - April 2021) Manual QA Tester - Web application testing for procurement</p>
               <p className="pt-8 pb-2">Tempcover - (Jan 2020 - June 2020) Mobile QA Tester - Mobile Testing their new native application</p>
               <p className="pt-8 pb-2">BBC - (Dec 2019 - January 2020) Software QA Tester - Contract - Regression and Exploratory Testing during the christmas for their Production Toolkit. Dept - Production Management Application Team</p>
