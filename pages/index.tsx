@@ -119,6 +119,14 @@ export default function Home() {
             <h2 className="text-3xl py-1 dark:text-white">Portfolio</h2>
             </div>
             <div>
+            <h3 className="text-lg font-medium pt-8 pb-2 text-center text-teal-600">QA Automation</h3>
+            </div>
+            <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="basis-1/3 flex-1">
+            <iframe src="https://player.vimeo.com/video/827256682?h=30db7b3fc1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="416" allow="autoplay; fullscreen; picture-in-picture" title="Automation_Video"></iframe>
+            </div>
+            </div>
+            <div>
             <h3 className="text-lg font-medium pt-8 pb-2 text-center text-teal-600">Designs</h3>
             </div>
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
