@@ -1,14 +1,12 @@
 import Head from 'next/head';
 import {BsFillMoonStarsFill} from 'react-icons/bs';
+import ReactPlayer from "react-player"
 import {
-  AiFillTwitterCircle,
   AiFillLinkedin,
-  AiFillYoutube,
 } from "react-icons/ai";
 import logo from "../public/logo.png"
 import Image from 'next/image';
 import steveb from "../public/stephen-portrait.png"
-import compskills from "../public/designskills.png"
 import qaskills from "../public/qaskills.png"
 import employ from "../public/employ.png"
 import education from "../public/education.png"
@@ -58,9 +56,7 @@ export default function Home() {
             <p className="text-md py-5 leading-8 text-grey-800 dark:text-gray-200 md:text-lg max-w-xl mx-auto">I am manual and Automation tester with over 5 years testing experience and 10 years digital, marketing, advertising and technical experience.</p>
           </div>
           <div className="text-5xl flex justify-center gap-16 py-3 dark:text-gray-400 text-grey-600">
-            <a href='https://https://twitter.com/'><AiFillTwitterCircle /></a>
             <a href='https://uk.linkedin.com/pub/stephen-bennett/b5/b87/a81'><AiFillLinkedin /></a>
-            <a href='https://https://youtube.com/'><AiFillYoutube /></a>
           </div>
           <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-40 h-40 mt-20 md:h-96 md:w-96">
             <Image src={steveb} alt="Stephen Thumb" fill={true} object-fit="cover" />
@@ -122,8 +118,37 @@ export default function Home() {
             <h3 className="text-lg font-medium pt-8 pb-2 text-center text-teal-600">QA Automation</h3>
             </div>
             <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+            <div className="basis-1/3 flex-1" >
+            <div style={{ padding: "64.95% 0 0 0", position: "relative" }}>
+              <iframe
+                src="https://player.vimeo.com/video/827256682?h=30db7b3fc1"
+                style={{
+                  position: "absolute",
+                  top: 0,
+                  left: 0,
+                  width: "100%",
+                  height: "100%"
+                }}
+                frameBorder={0}
+                allow="autoplay; fullscreen; picture-in-picture"
+              />
+            </div>
+            </div>
             <div className="basis-1/3 flex-1">
-            <iframe src="https://player.vimeo.com/video/827256682?h=30db7b3fc1&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="640" height="416" allow="autoplay; fullscreen; picture-in-picture" title="Automation_Video"></iframe>
+            <div style={{ padding: "62.5% 0 0 0", position: "relative" }}>
+            <iframe
+              src="https://player.vimeo.com/video/866884683?h=cbea33cad5"
+              style={{
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%"
+              }}
+              frameBorder={0}
+              allow="autoplay; fullscreen; picture-in-picture"
+            />
+            </div>
             </div>
             </div>
             <div>
