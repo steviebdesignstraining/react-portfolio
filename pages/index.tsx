@@ -73,7 +73,7 @@ export default function Home() {
               <h3 className="text-lg font-medium pt-8 pb-2 text-center">Computer Skills</h3>
               <h4 className="py-4 text-teal-600">Here is a list of computer skills since 2008</h4>
                 <ul className="text-md py-5 leading-8 text-grey-800">
-                  <li className="text-gray-800 py-1">Experience with computer languages such as <span className="text-teal-500">HTML, CSS, Javascript, React, SQL</span> and <span className="text-teal-500">Swift</span></li>
+                  <li className="text-gray-800 py-1">Experience with computer languages such as <span className="text-teal-500">HTML, CSS, Javascript, Typescript, React, Python, SQL</span> and <span className="text-teal-500">Swift</span></li>
                   <li className="text-gray-800 py-1">Experiece with design packages such as <span className="text-teal-500">Adobe Suite, Final Cut</span> and <span className="text-teal-500">Figma</span></li>
                   <li className="text-gray-800 py-1">An understanding of digital development, <span className="text-teal-500">Agile</span> and <span className="text-teal-500">Waterfall</span> methodologies, analysis techniques and professional skills</li>
                   <li className="text-gray-800 py-1">Manual, Automation, Functional, Non-functional, Usability and Accessibility testing</li>
